@@ -1,0 +1,63 @@
+/* Fuentes y tipografía */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.card-header {
+    font-family: 'Playfair Display', serif;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Colores */
+:root {
+    --color-primario: #5e548e; /* Morado sofisticado */
+    --color-secundario: #9f86c0; /* Morado claro */
+    --color-acento: #e0b1cb; /* Rosa suave */
+}
+
+.card-header.bg-primary {
+    background-color: var(--color-primario) !important;
+}
+
+.card-header.bg-success {
+    background-color: var(--color-secundario) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.btn-primary:hover {
+    background-color: #4d4575;
+    border-color: #4d4575;
+}
+
+/* Efectos hover para tarjetas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para inputs */
+.form-control {
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 15px;
+}
